@@ -1,0 +1,53 @@
+name: Push new alerts
+
+on:
+  push:
+    branches: [main]
+    paths: [feed.json]
+  workflow_dispatch:
+    inputs:
+      title:
+        description: Title of a push delivery test (leave empty to re-check the last commit instead)
+        required: false
+        default: Crypto Watch push test
+      projectId:
+        description: Optional project id the test notification opens (e.g. balcore)
+        required: false
+
+concurrency:
+  group: push-alerts
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    env:
+      FCM_SERVICE_ACCOUNT_JSON: ${{ secrets.FCM_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Validate feed.json
+        run: python3 scripts/validate.py feed.json
+
+      - name: Install FCM client libraries
+        run: pip install --quiet google-auth requests
+
+      - name: Send delivery test
+        if: github.event_name == 'workflow_dispatch' && inputs.title != ''
+        env:
+          TITLE: ${{ inputs.title }}
+          PROJECT_ID: ${{ inputs.projectId }}
+        run: |
+          if [ -n "$PROJECT_ID" ]; then
+            python3 scripts/send_push.py --test "$TITLE" --project "$PROJECT_ID"
+          else
+            python3 scripts/send_push.py --test "$TITLE"
+          fi
+
+      - name: Send alerts added by this commit
+        if: github.event_name == 'push' || inputs.title == ''
+        run: |
+          git show HEAD~1:feed.json > old.json 2>/dev/null || echo '{}' > old.json
+          python3 scripts/send_push.py --old old.json --new feed.json

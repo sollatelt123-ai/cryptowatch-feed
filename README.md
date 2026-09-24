@@ -20,3 +20,13 @@ The format is described in [FEED_SCHEMA.md](FEED_SCHEMA.md).
 
 ## Future backend
 When the Crypto Watch backend exists, it serves the same schema, for example at `GET /v1/feed`. Switch the app to it in Settings → Data → Data source, or through the `CW_FEED_URL` variable in the app repository. The UI does not change.
+
+## Real-time push (FCM)
+
+Every push to `main` that changes `feed.json` runs the *Push new alerts* workflow. It sends each **new** alert (a new `id`, less than 3 days old) to all phones through Firebase Cloud Messaging, topic `cw_alerts`. Each phone applies its own notification switches. Tapping a notification opens the matching Project or Signal detail.
+
+One-time setup:
+1. Open Firebase Console → the Crypto Watch project → ⚙ Project settings → **Service accounts** → **Generate new private key**.
+2. In this repository, go to Settings → Secrets and variables → Actions → **New repository secret**. Name it `FCM_SERVICE_ACCOUNT_JSON` and paste the whole JSON file as the value.
+
+To check delivery, run Actions → **Push new alerts** → *Run workflow*. The title field sends a test notification of type `TEST`. That type is always shown and is not stored in the feed.
