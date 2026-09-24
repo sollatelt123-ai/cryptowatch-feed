@@ -20,16 +20,18 @@ def ts_ok(v):
 
 ENUMS = {
     "status": {"EARLY", "UPCOMING", "LIVE"},
+    "statusDetail": {"PRE_LAUNCH", "EARLY", "UPCOMING", "LIVE", "ENDED", "INACTIVE"},
     "priority": {"LOW", "NORMAL", "HIGH", "CRITICAL"},
-    "verification": {"OFFICIAL", "DETECTED", "UNVERIFIED"},
-    "wallet": {"TOKEN_CA", "OFFICIAL_WALLET", "TREASURY", "CREATOR", "FUNDER", "CLUSTER", "OTHER"},
+    "verification": {"OFFICIAL", "VERIFIED", "DETECTED", "UNVERIFIED", "REVOKED"},
+    "wallet": {"TOKEN_CA", "OFFICIAL_WALLET", "TREASURY", "CREATOR", "DEPLOYER", "FUNDER", "CLUSTER", "LP",
+               "MULTISIG", "OTHER"},
     "link": {"WEBSITE", "X", "TWITTER", "TELEGRAM", "DISCORD", "DOCS", "EXPLORER", "GITHUB", "OTHER"},
     "signal": {"FIRST", "RECALL"},
     "kind": {"SIGNAL", "MILESTONE", "WALLET"},
     "alert": {"NEW_PROJECT", "PROJECT_UPDATE", "TGE", "LAUNCH", "CA_DETECTED", "OFFICIAL_WALLET_DETECTED",
               "WALLET_CHANGED", "CREATOR_DETECTED", "FUNDER_DETECTED", "CLUSTER_DETECTED", "FIRST", "RECALL",
               "MILESTONE_1_5X", "MILESTONE_2X", "MILESTONE_3X", "MILESTONE_5X", "1.5X", "2X", "3X", "5X", "5X+",
-              "PRICE_ALERT", "SYSTEM"},
+              "PRICE_ALERT", "SYSTEM", "CORRECTION", "TEST"},
 }
 SECRET = re.compile(r"(api[_-]?key|secret|token|password|private[_-]?key|bearer)\s*[:=]", re.I)
 
@@ -60,6 +62,7 @@ for i, p in enumerate(feed.get("projects", [])):
     if p.get("id") in project_ids: err(f"{w}: duplicate project id")
     project_ids.add(p.get("id"))
     enum(w, "status", p.get("status"), "status")
+    enum(w, "statusDetail", p.get("statusDetail"), "statusDetail")
     url_ok(w + ".logoUrl", p.get("logoUrl")); url_ok(w + ".bannerUrl", p.get("bannerUrl"))
     for j, l in enumerate(p.get("links", [])):
         enum(f"{w}.links[{j}]", "type", l.get("type"), "link"); url_ok(f"{w}.links[{j}]", l.get("url"))
