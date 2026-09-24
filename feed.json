@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-24T16:00:00Z",
+  "projects": [
+    {
+      "id": "balcore",
+      "name": "Balcore",
+      "categories": ["DeFi Infrastructure"],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Early-stage project under Crypto Watch monitoring. Official announcements, contracts and wallets appear here as soon as they are published or detected.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [],
+      "updates": [
+        {
+          "id": "balcore-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official sources are tracked for announcements, TGE, token contract and wallets.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-24T16:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "pontes",
+      "name": "Pontes",
+      "categories": ["Cross-chain Liquidity"],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Early-stage project under Crypto Watch monitoring. Official announcements, contracts and wallets appear here as soon as they are published or detected.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [],
+      "updates": [
+        {
+          "id": "pontes-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official sources are tracked for announcements, TGE, token contract and wallets.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-24T16:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "appia",
+      "name": "Appia",
+      "categories": ["DePIN", "AI"],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Early-stage project under Crypto Watch monitoring. Official announcements, contracts and wallets appear here as soon as they are published or detected.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [],
+      "updates": [
+        {
+          "id": "appia-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official sources are tracked for announcements, TGE, token contract and wallets.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-24T16:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    }
+  ],
+  "signals": [],
+  "alerts": [
+    {
+      "id": "balcore-new-project",
+      "type": "NEW_PROJECT",
+      "title": "Balcore added to monitoring",
+      "source": "Crypto Watch",
+      "timestamp": "2026-09-24T16:00:00Z",
+      "priority": "NORMAL",
+      "projectId": "balcore"
+    },
+    {
+      "id": "pontes-new-project",
+      "type": "NEW_PROJECT",
+      "title": "Pontes added to monitoring",
+      "source": "Crypto Watch",
+      "timestamp": "2026-09-24T16:00:00Z",
+      "priority": "NORMAL",
+      "projectId": "pontes"
+    },
+    {
+      "id": "appia-new-project",
+      "type": "NEW_PROJECT",
+      "title": "Appia added to monitoring",
+      "source": "Crypto Watch",
+      "timestamp": "2026-09-24T16:00:00Z",
+      "priority": "NORMAL",
+      "projectId": "appia"
+    }
+  ]
+}
