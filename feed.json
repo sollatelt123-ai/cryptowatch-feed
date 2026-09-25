@@ -1,11 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T16:00:00Z",
+  "generatedAt": "2026-09-25T10:47:00Z",
   "projects": [
     {
       "id": "balcore",
       "name": "Balcore",
-      "categories": ["DeFi Infrastructure"],
+      "categories": [
+        "DeFi Infrastructure"
+      ],
       "status": "EARLY",
       "chain": null,
       "tge": null,
@@ -28,7 +30,9 @@
     {
       "id": "pontes",
       "name": "Pontes",
-      "categories": ["Cross-chain Liquidity"],
+      "categories": [
+        "Cross-chain Liquidity"
+      ],
       "status": "EARLY",
       "chain": null,
       "tge": null,
@@ -51,7 +55,10 @@
     {
       "id": "appia",
       "name": "Appia",
-      "categories": ["DePIN", "AI"],
+      "categories": [
+        "DePIN",
+        "AI"
+      ],
       "status": "EARLY",
       "chain": null,
       "tge": null,
@@ -68,6 +75,58 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-24T16:00:00Z",
           "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "variational",
+      "name": "Variational",
+      "categories": [
+        "Perpetuals",
+        "DeFi"
+      ],
+      "status": "UPCOMING",
+      "chain": "Arbitrum",
+      "tge": "Q4 2026",
+      "description": "Pre-TGE derivatives protocol under Crypto Watch monitoring. Tracking VAR TGE, points, tokenomics, listings and official contract publication.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [],
+      "updates": [
+        {
+          "id": "variational-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "VAR pre-TGE activity, points, TGE and official token contract are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T10:47:00Z",
+          "priority": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "ekiden",
+      "name": "Ekiden",
+      "categories": [
+        "Perpetuals",
+        "DeFi"
+      ],
+      "status": "EARLY",
+      "chain": "Canton Network",
+      "tge": null,
+      "description": "Early pre-token derivatives project under Crypto Watch monitoring. Tracking Mainnet XP, community token allocation, TGE and official token details.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [],
+      "updates": [
+        {
+          "id": "ekiden-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Mainnet XP, future community token allocation, TGE and official token contract are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T10:47:00Z",
+          "priority": "HIGH"
         }
       ]
     }
@@ -100,6 +159,26 @@
       "timestamp": "2026-09-24T16:00:00Z",
       "priority": "NORMAL",
       "projectId": "appia"
+    },
+    {
+      "id": "variational-new-project",
+      "type": "NEW_PROJECT",
+      "title": "Variational added to monitoring",
+      "message": "Variational is now tracked by Crypto Watch pre-TGE monitoring.",
+      "source": "Crypto Watch",
+      "timestamp": "2026-09-25T10:47:00Z",
+      "priority": "HIGH",
+      "projectId": "variational"
+    },
+    {
+      "id": "ekiden-new-project",
+      "type": "NEW_PROJECT",
+      "title": "Ekiden added to monitoring",
+      "message": "Ekiden is now tracked by Crypto Watch pre-TGE monitoring.",
+      "source": "Crypto Watch",
+      "timestamp": "2026-09-25T10:47:00Z",
+      "priority": "HIGH",
+      "projectId": "ekiden"
     }
   ]
 }
