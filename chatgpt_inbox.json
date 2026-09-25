@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "description": "Public candidate-event inbox written by ChatGPT monitoring. CryptoWatch backend imports events idempotently.",
+  "events": []
+}
