@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T10:47:00Z",
+  "generatedAt": "2026-09-25T11:00:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -127,6 +127,2561 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T10:47:00Z",
           "priority": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "doppler",
+      "name": "Doppler Finance",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": "Base",
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (XDP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "XDP token contract",
+          "address": null,
+          "chain": "base",
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "doppler-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "magicblock",
+      "name": "MagicBlock",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": "Solana",
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (BLOCK). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "BLOCK token contract",
+          "address": null,
+          "chain": "solana",
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "magicblock-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "miden",
+      "name": "Miden",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (MIDEN). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "MIDEN token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "miden-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "inco",
+      "name": "Inco",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "inco-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "perena",
+      "name": "Perena",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": "Solana",
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": "solana",
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "perena-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "bulk",
+      "name": "BULK",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": "Solana",
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (BULK). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "BULK token contract",
+          "address": null,
+          "chain": "solana",
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "bulk-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "pacifica",
+      "name": "Pacifica",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": "Solana",
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": "solana",
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "pacifica-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "teneo",
+      "name": "Teneo",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (TENEO). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "TENEO token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "teneo-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "apyx",
+      "name": "Apyx",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (APYX). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "APYX token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "apyx-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "ritual",
+      "name": "Ritual",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (RITUAL). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "RITUAL token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "ritual-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "catapult",
+      "name": "Catapult",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (PULT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "PULT token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "catapult-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "city-protocol",
+      "name": "City Protocol",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (CT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "CT token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "city-protocol-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "axis-robotics",
+      "name": "Axis Robotics",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": "Base",
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (AXIS). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "AXIS token contract",
+          "address": null,
+          "chain": "base",
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "axis-robotics-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "real-finance",
+      "name": "Real Finance",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (ASSET). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "ASSET token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "real-finance-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "soul-labs",
+      "name": "Soul Labs",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (SO). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "SO token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "soul-labs-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "infinifi",
+      "name": "infiniFi",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "infinifi-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "cambria",
+      "name": "Cambria",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (RSGP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "RSGP token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "cambria-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "avant-protocol",
+      "name": "Avant Protocol",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (AVANT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "AVANT token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "avant-protocol-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "byzanlink",
+      "name": "Byzanlink",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (BYZAN). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "BYZAN token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "byzanlink-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "wager-predict",
+      "name": "Wager Predict",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (WP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "WP token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "wager-predict-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "concrete",
+      "name": "Concrete",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "concrete-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "extended",
+      "name": "Extended",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (EXT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "EXT token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "extended-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "mawari",
+      "name": "Mawari",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (MAWARI). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "MAWARI token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "mawari-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "multipli-fi",
+      "name": "Multipli.fi",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (MULT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "MULT token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "multipli-fi-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "stripchain",
+      "name": "StripChain",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (STRIP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "STRIP token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "stripchain-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "veera",
+      "name": "Veera",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (VEERA). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "VEERA token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "veera-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "allox",
+      "name": "AlloX",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (ALLOX). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "ALLOX token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "allox-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "ethos-network",
+      "name": "Ethos Network",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (WHUF). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "WHUF token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "ethos-network-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "ink",
+      "name": "Ink",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (INK). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "INK token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "ink-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "konnex",
+      "name": "Konnex",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (KNX). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "KNX token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "konnex-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "linera",
+      "name": "Linera",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "linera-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "nado",
+      "name": "Nado",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "nado-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "pheasant-network",
+      "name": "Pheasant Network",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (PNT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "PNT token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "pheasant-network-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "propr",
+      "name": "Propr",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (PROPR). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "PROPR token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "propr-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "quip-network",
+      "name": "Quip Network",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (QUIP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "QUIP token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "quip-network-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "solarious",
+      "name": "Solarious",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (SOLAR). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "SOLAR token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "solarious-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "strata",
+      "name": "Strata",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (STRATA). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "STRATA token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "strata-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "xdao",
+      "name": "XDAO",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (XDAO). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "XDAO token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "xdao-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "arc",
+      "name": "Arc",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (ARC). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "ARC token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "arc-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "kast",
+      "name": "KAST",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (KAST). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "KAST token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "kast-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "aro-network",
+      "name": "ARO Network",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (ARO). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "ARO token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "aro-network-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "flop-labs",
+      "name": "Flop Labs",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (FLOP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "FLOP token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "flop-labs-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "strato",
+      "name": "Strato",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (STRATO). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "STRATO token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "strato-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "rise",
+      "name": "RISE",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "rise-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "canopy-network",
+      "name": "Canopy Network",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (CNPY). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "CNPY token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "canopy-network-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "krain-ai",
+      "name": "KRAIN AI",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (KRAIN). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "KRAIN token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "krain-ai-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "standx",
+      "name": "StandX",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "UPCOMING",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "standx-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "3jane",
+      "name": "3Jane",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (JANE). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "JANE token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "3jane-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "abstract",
+      "name": "Abstract",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "abstract-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "cascade",
+      "name": "Cascade",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "cascade-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "glider",
+      "name": "Glider",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "glider-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "meridian",
+      "name": "Meridian",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "meridian-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "n1",
+      "name": "N1",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "n1-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "predict-fun",
+      "name": "Predict.fun",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "predict-fun-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "reya",
+      "name": "Reya",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "reya-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "saturn-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "theo-network",
+      "name": "Theo Network",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "theo-network-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "unit",
+      "name": "Unit",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "unit-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "vest",
+      "name": "Vest",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "vest-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "vlayer",
+      "name": "vlayer",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "vlayer-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "arch-network",
+      "name": "Arch Network",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (ARCH). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "ARCH token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "arch-network-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "axiom",
+      "name": "Axiom",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": "Solana",
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": "solana",
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "axiom-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "dgrid-ai",
+      "name": "DGrid AI",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (DGAI). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "DGAI token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "dgrid-ai-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "dscvr",
+      "name": "dscvr",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (DS). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "DS token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "dscvr-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euphoria",
+      "name": "Euphoria",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "euphoria-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "everything-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "fermah",
+      "name": "Fermah",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "fermah-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "genlayer",
+      "name": "GenLayer",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "genlayer-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "gradient",
+      "name": "Gradient",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "gradient-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "hibachi",
+      "name": "Hibachi",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring (HEAT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": "HEAT token contract",
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "hibachi-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "osero",
+      "name": "Osero",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "osero-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "t-rex",
+      "name": "T-Rex",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "t-rex-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "trade-xyz",
+      "name": "Trade[XYZ]",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "trade-xyz-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
         }
       ]
     }
