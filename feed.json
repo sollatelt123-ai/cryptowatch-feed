@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:30:00Z",
+  "generatedAt": "2026-09-26T08:00:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -82,12 +82,11 @@
       "id": "variational",
       "name": "Variational",
       "categories": [
-        "Perpetuals",
-        "DeFi"
+        "Perps"
       ],
       "status": "UPCOMING",
       "chain": "Arbitrum",
-      "tge": "Q4 2026",
+      "tge": "Q4 2026 · Estimated",
       "description": "Variational Omni is an on-chain derivatives platform. Crypto Watch tracks its active weekly points program, future token/TGE announcements, tokenomics, listings and official contract.",
       "monitoring": "ACTIVE",
       "metrics": [],
@@ -95,6 +94,11 @@
         {
           "type": "WEBSITE",
           "url": "https://www.variational.io/en"
+        },
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
         }
       ],
       "wallets": [],
@@ -115,9 +119,18 @@
           "url": "https://help.variational.io/en/articles/14766791-points-on-omni",
           "timestamp": "2026-09-26T07:30:00Z",
           "priority": "HIGH"
+        },
+        {
+          "id": "variational-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q4 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: VAR.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
       ],
-      "lastUpdateAt": "2026-09-26T07:30:00Z"
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "ekiden",
@@ -228,15 +241,21 @@
       "id": "magicblock",
       "name": "MagicBlock",
       "categories": [
-        "Pre-TGE"
+        "Solana Infra"
       ],
       "status": "UPCOMING",
       "chain": "Solana",
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (BLOCK). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -256,22 +275,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "magicblock-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: BLOCK.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "miden",
       "name": "Miden",
       "categories": [
-        "Pre-TGE"
+        "L1/L2"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (MIDEN). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -291,22 +326,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "miden-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: MIDEN.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "inco",
       "name": "Inco",
       "categories": [
-        "Pre-TGE"
+        "Infra"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "Q4 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -326,22 +377,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "inco-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q4 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "perena",
       "name": "Perena",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "EARLY",
       "chain": "Solana",
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -361,22 +428,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "perena-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "bulk",
       "name": "BULK",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "EARLY",
       "chain": "Solana",
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (BULK). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -396,22 +479,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "bulk-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: BULK.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "pacifica",
       "name": "Pacifica",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "EARLY",
       "chain": "Solana",
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -431,18 +530,28 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "pacifica-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "teneo",
       "name": "Teneo",
       "categories": [
-        "Pre-TGE"
+        "DePIN"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q4 2026 · Estimated",
       "description": "Teneo Protocol operates a decentralized real-time data/AI-agent network. Community Node participation earns Teneo Points; official project material states points convert into Teneo Tokens after TGE. Crypto Watch tracks TGE timing and token contract.",
       "monitoring": "ACTIVE",
       "metrics": [],
@@ -450,6 +559,11 @@
         {
           "type": "WEBSITE",
           "url": "https://teneo.pro/"
+        },
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
         }
       ],
       "wallets": [
@@ -480,23 +594,38 @@
           "url": "https://teneo.pro/blog/teneo-raises-3-million-in-seed-funding",
           "timestamp": "2026-09-26T07:30:00Z",
           "priority": "HIGH"
+        },
+        {
+          "id": "teneo-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q4 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: TENEO.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
       ],
-      "lastUpdateAt": "2026-09-26T07:30:00Z"
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "apyx",
       "name": "Apyx",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Oct 13, 2026 · tracker confirmed; project delay requires verification",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (APYX). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -516,8 +645,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "apyx-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Oct 13, 2026 · tracker confirmed; project delay requires verification. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: APYX.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "ritual",
@@ -797,15 +936,21 @@
       "id": "cambria",
       "name": "Cambria",
       "categories": [
-        "Pre-TGE"
+        "Consumer"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "September 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (RSGP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -825,22 +970,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "cambria-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: September 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: RSGP.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "avant-protocol",
       "name": "Avant Protocol",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Mid-September 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (AVANT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -860,22 +1021,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "avant-protocol-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Mid-September 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: AVANT.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "byzanlink",
       "name": "Byzanlink",
       "categories": [
-        "Pre-TGE"
+        "RWA"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "September 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (BYZAN). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -895,22 +1072,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "byzanlink-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: September 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: BYZAN.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "wager-predict",
       "name": "Wager Predict",
       "categories": [
-        "Pre-TGE"
+        "Consumer"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "September 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (WP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -930,22 +1123,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "wager-predict-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: September 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: WP.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "concrete",
       "name": "Concrete",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -965,22 +1174,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "concrete-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "extended",
       "name": "Extended",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (EXT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1000,22 +1225,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "extended-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: EXT.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "mawari",
       "name": "Mawari",
       "categories": [
-        "Pre-TGE"
+        "DePIN"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (MAWARI). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1035,22 +1276,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "mawari-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: MAWARI.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "multipli-fi",
       "name": "Multipli.fi",
       "categories": [
-        "Pre-TGE"
+        "RWA"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (MULT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1070,22 +1327,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "multipli-fi-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: MULT.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "stripchain",
       "name": "StripChain",
       "categories": [
-        "Pre-TGE"
+        "Infra"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Confirmed",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (STRIP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1105,22 +1378,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "stripchain-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Confirmed. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: STRIP.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "veera",
       "name": "Veera",
       "categories": [
-        "Pre-TGE"
+        "Neobank"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (VEERA). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1140,22 +1429,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "veera-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: VEERA.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "allox",
       "name": "AlloX",
       "categories": [
-        "Pre-TGE"
+        "AI DeFi"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (ALLOX). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1175,22 +1480,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "allox-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: ALLOX.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "ethos-network",
       "name": "Ethos Network",
       "categories": [
-        "Pre-TGE"
+        "Consumer"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (WHUF). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1210,22 +1531,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "ethos-network-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: WHUF.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "ink",
       "name": "Ink",
       "categories": [
-        "Pre-TGE"
+        "L1/L2"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (INK). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1245,22 +1582,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "ink-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: INK.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "konnex",
       "name": "Konnex",
       "categories": [
-        "Pre-TGE"
+        "DePIN"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (KNX). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1280,22 +1633,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "konnex-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: KNX.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "linera",
       "name": "Linera",
       "categories": [
-        "Pre-TGE"
+        "L1/L2"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1315,22 +1684,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "linera-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "nado",
       "name": "Nado",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1350,22 +1735,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "nado-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "pheasant-network",
       "name": "Pheasant Network",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (PNT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1385,8 +1786,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "pheasant-network-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: PNT.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "propr",
@@ -1394,9 +1805,9 @@
       "categories": [
         "Pre-TGE"
       ],
-      "status": "UPCOMING",
+      "status": "LIVE",
       "chain": null,
-      "tge": null,
+      "tge": "PROPR TGE įvyko 2026-08-24; projektas nebe pre-TGE.",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (PROPR). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
@@ -1420,22 +1831,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "propr-live-correction-2026-09-26",
+          "title": "Statusas pataisytas į LIVE",
+          "description": "PROPR TGE įvyko 2026-08-24; projektas nebe pre-TGE.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/events/propr-propr-token-generation-event",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "quip-network",
       "name": "Quip Network",
       "categories": [
-        "Pre-TGE"
+        "L1/L2"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (QUIP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1455,22 +1882,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "quip-network-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: QUIP.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "solarious",
       "name": "Solarious",
       "categories": [
-        "Pre-TGE"
+        "L1/L2"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (SOLAR). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1490,22 +1933,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "solarious-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: SOLAR.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "strata",
       "name": "Strata",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (STRATA). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1525,22 +1984,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "strata-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: STRATA.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "xdao",
       "name": "XDAO",
       "categories": [
-        "Pre-TGE"
+        "Infra"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q3 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (XDAO). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1560,22 +2035,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "xdao-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q3 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: XDAO.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "arc",
       "name": "Arc",
       "categories": [
-        "Pre-TGE"
+        "L1/L2"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q4 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (ARC). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1595,22 +2086,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "arc-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q4 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: ARC.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "kast",
       "name": "KAST",
       "categories": [
-        "Pre-TGE"
+        "Neobank"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q4 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (KAST). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1630,22 +2137,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "kast-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q4 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: KAST.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "aro-network",
       "name": "ARO Network",
       "categories": [
-        "Pre-TGE"
+        "DePIN"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q4 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (ARO). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1665,22 +2188,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "aro-network-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q4 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: ARO.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "flop-labs",
       "name": "Flop Labs",
       "categories": [
-        "Pre-TGE"
+        "DeAI"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q4 2026 airdrop target",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (FLOP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1700,22 +2239,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "flop-labs-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q4 2026 airdrop target. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: FLOP.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "strato",
       "name": "Strato",
       "categories": [
-        "Pre-TGE"
+        "RWA"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "Q4 2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (STRATO). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1735,22 +2290,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "strato-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: Q4 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: STRATO.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "rise",
       "name": "RISE",
       "categories": [
-        "Pre-TGE"
+        "L1/L2"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1770,22 +2341,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "rise-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "canopy-network",
       "name": "Canopy Network",
       "categories": [
-        "Pre-TGE"
+        "Infra"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (CNPY). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1805,22 +2392,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "canopy-network-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: CNPY.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "krain-ai",
       "name": "KRAIN AI",
       "categories": [
-        "Pre-TGE"
+        "AI"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (KRAIN). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1840,22 +2443,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "krain-ai-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: KRAIN.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "standx",
       "name": "StandX",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "2026 · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1875,22 +2494,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "standx-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: 2026 · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "3jane",
       "name": "3Jane",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (JANE). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1910,22 +2545,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "3jane-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: JANE.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "abstract",
       "name": "Abstract",
       "categories": [
-        "Pre-TGE"
+        "L1/L2"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1945,22 +2596,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "abstract-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "cascade",
       "name": "Cascade",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -1980,22 +2647,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "cascade-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "glider",
       "name": "Glider",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2015,22 +2698,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "glider-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "meridian",
       "name": "Meridian",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2050,22 +2749,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "meridian-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "n1",
       "name": "N1",
       "categories": [
-        "Pre-TGE"
+        "L1/L2"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2085,22 +2800,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "n1-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "predict-fun",
       "name": "Predict.fun",
       "categories": [
-        "Pre-TGE"
+        "Consumer"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2120,22 +2851,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "predict-fun-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "reya",
       "name": "Reya",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2155,22 +2902,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "reya-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "saturn",
       "name": "Saturn",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2190,22 +2953,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "saturn-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "theo-network",
       "name": "Theo Network",
       "categories": [
-        "Pre-TGE"
+        "RWA"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2225,22 +3004,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "theo-network-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "unit",
       "name": "Unit",
       "categories": [
-        "Pre-TGE"
+        "RWA"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2260,22 +3055,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "unit-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "vest",
       "name": "Vest",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2295,22 +3106,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "vest-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "vlayer",
       "name": "vlayer",
       "categories": [
-        "Pre-TGE"
+        "Infra"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2330,22 +3157,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "vlayer-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "arch-network",
       "name": "Arch Network",
       "categories": [
-        "Pre-TGE"
+        "Infra"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (ARCH). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2365,22 +3208,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "arch-network-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: ARCH.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "axiom",
       "name": "Axiom",
       "categories": [
-        "Pre-TGE"
+        "DeFi"
       ],
       "status": "EARLY",
       "chain": "Solana",
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2400,8 +3259,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "axiom-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "dgrid-ai",
@@ -2409,9 +3278,9 @@
       "categories": [
         "Pre-TGE"
       ],
-      "status": "EARLY",
+      "status": "LIVE",
       "chain": null,
-      "tge": null,
+      "tge": "DGAI/USDT spot prekyba Bitget startavo 2026-08-24 08:00 UTC; projektas nebe pre-TGE.",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (DGAI). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
@@ -2435,8 +3304,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "dgrid-ai-live-correction-2026-09-26",
+          "title": "Statusas pataisytas į LIVE",
+          "description": "DGAI/USDT spot prekyba Bitget startavo 2026-08-24 08:00 UTC; projektas nebe pre-TGE.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/events/dgrid-ai-dgai-token-generation-event",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "dscvr",
@@ -2477,15 +3356,21 @@
       "id": "euphoria",
       "name": "Euphoria",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2505,22 +3390,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "euphoria-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "everything",
       "name": "Everything",
       "categories": [
-        "Pre-TGE"
+        "Consumer"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2540,22 +3441,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "everything-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "fermah",
       "name": "Fermah",
       "categories": [
-        "Pre-TGE"
+        "Infra"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2575,22 +3492,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "fermah-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "genlayer",
       "name": "GenLayer",
       "categories": [
-        "Pre-TGE"
+        "AI"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2610,22 +3543,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "genlayer-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "gradient",
       "name": "Gradient",
       "categories": [
-        "Pre-TGE"
+        "DePIN"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2645,22 +3594,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "gradient-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "hibachi",
       "name": "Hibachi",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (HEAT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2680,22 +3645,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "hibachi-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu. Stebimas tickeris: HEAT.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "osero",
       "name": "Osero",
       "categories": [
-        "Pre-TGE"
+        "Neobank"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2715,22 +3696,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "osero-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "t-rex",
       "name": "T-Rex",
       "categories": [
-        "Pre-TGE"
+        "Consumer"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2750,22 +3747,38 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "t-rex-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "trade-xyz",
       "name": "Trade[XYZ]",
       "categories": [
-        "Pre-TGE"
+        "Perps"
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
+      "tge": "TBA · Estimated",
       "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "TGE tracker",
+          "url": "https://cryptodiffer.com/upcoming-tges"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2785,8 +3798,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "trade-xyz-tracker-status-2026-09-26",
+          "title": "TGE būsena atnaujinta",
+          "description": "Dabartinis TGE trackerio statusas: TBA · Estimated. Tai trackerio būsena; Estimated datos nėra laikomos oficialiu projekto patvirtinimu.",
+          "source": "CryptoDiffer",
+          "url": "https://cryptodiffer.com/upcoming-tges",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:00:00Z"
     },
     {
       "id": "firelight-protocol",
