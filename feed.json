@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T11:00:00Z",
+  "generatedAt": "2026-09-26T07:10:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -2681,6 +2681,185 @@
           "description": "Official network, TGE, token contract, funding and pre-launch participation opportunities are now tracked.",
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "firelight-protocol",
+      "name": "Firelight Protocol",
+      "categories": [
+        "DeFi",
+        "Risk Infrastructure"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Early-stage DeFi cover infrastructure candidate. Monitoring token plans, points/testnet, TGE, funding, official X, network and contract publication.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "firelight-protocol-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Early-stage candidate added to monitoring. Official sources, token plans, network, TGE and participation opportunities will be tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-26T07:10:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "asentum",
+      "name": "Asentum",
+      "categories": [
+        "Layer 1",
+        "Post-Quantum"
+      ],
+      "status": "EARLY",
+      "chain": "Asentum Testnet",
+      "tge": null,
+      "description": "Early-stage L1 candidate with incentivized testnet activity. Monitoring XP/rewards, token plans, TGE, official X, network and contract publication.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": "asentum testnet",
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "asentum-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Early-stage candidate added to monitoring. Official sources, token plans, network, TGE and participation opportunities will be tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-26T07:10:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "atum",
+      "name": "Atum",
+      "categories": [
+        "Stablecoin Infrastructure",
+        "Payments"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Early-stage stablecoin payments infrastructure candidate. No token assumed; monitoring token/incentive plans, TGE, official X, network and contracts.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "atum-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Early-stage candidate added to monitoring. Official sources, token plans, network, TGE and participation opportunities will be tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-26T07:10:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "tenka",
+      "name": "Tenka",
+      "categories": [
+        "Pre-Seed"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Pre-seed crypto candidate. Monitoring product launch, funding, token/incentive plans, official X, network and contracts.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": null,
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "tenka-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Early-stage candidate added to monitoring. Official sources, token plans, network, TGE and participation opportunities will be tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-26T07:10:00Z",
+          "priority": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "morfi-markets",
+      "name": "Morfi Markets",
+      "categories": [
+        "DeFi",
+        "Trading"
+      ],
+      "status": "EARLY",
+      "chain": "Solana",
+      "tge": null,
+      "description": "Early-stage Solana candidate. Monitoring early-user programs, points, token plans, TGE, official X and contracts.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [],
+      "wallets": [
+        {
+          "type": "TOKEN_CA",
+          "label": null,
+          "address": null,
+          "chain": "solana",
+          "source": "Not yet verified/published",
+          "firstDetectedAt": null,
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "updates": [
+        {
+          "id": "morfi-markets-monitoring-started",
+          "title": "Added to Crypto Watch monitoring",
+          "description": "Early-stage candidate added to monitoring. Official sources, token plans, network, TGE and participation opportunities will be tracked.",
+          "source": "Crypto Watch",
+          "timestamp": "2026-09-26T07:10:00Z",
           "priority": "NORMAL"
         }
       ]
