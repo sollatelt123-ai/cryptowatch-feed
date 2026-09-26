@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:00:00Z",
+  "generatedAt": "2026-09-26T08:20:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -700,12 +700,17 @@
         "Pre-TGE"
       ],
       "status": "EARLY",
-      "chain": null,
+      "chain": "Solana (initial deployment)",
       "tge": null,
-      "description": "Pre-TGE candidate under Crypto Watch monitoring (PULT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "description": "Catapult Protocol documentation describes an initial Solana deployment and $PULT as the native ecosystem token/base LP pair. Crypto Watch continues to track the official TGE date and contract address.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://catapult.trade/"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -725,8 +730,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "catapult-pult-docs-2026-09-26",
+          "title": "Catapult dokumentuose patvirtintas $PULT ir Solana kryptis",
+          "description": "Catapult Protocol dokumentacija nurodo pradinį deployment Solana tinkle ir $PULT kaip native ecosystem tokeną bei bazinę LP porą. Tiksli TGE data ir oficialus CA dar neįrašomi be pirminio launch patvirtinimo.",
+          "source": "Catapult Protocol",
+          "url": "https://catapult.trade/lp-v6.pdf",
+          "timestamp": "2026-09-26T08:20:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:20:00Z"
     },
     {
       "id": "city-protocol",
@@ -737,10 +752,15 @@
       "status": "EARLY",
       "chain": null,
       "tge": null,
-      "description": "Pre-TGE candidate under Crypto Watch monitoring (CT). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "description": "City Protocol is full-stack on-chain structured-products infrastructure for tokenization, vaults, issuance and distribution. Its flagship product is Venzo Finance. Native CT token/TGE remains unconfirmed in Crypto Watch until an official primary-source announcement.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://www.cityprotocol.co/"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -760,8 +780,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "city-protocol-official-2026-09-26",
+          "title": "City Protocol oficiali infrastruktūra patvirtinta",
+          "description": "Oficiali City Protocol svetainė aprašo tokenization/vault/issuance infrastruktūrą ir Venzo Finance produktą. Patikimo oficialaus CT tokeno TGE patvirtinimo šiame patikrinime nerasta, todėl TGE lieka TBA.",
+          "source": "City Protocol",
+          "url": "https://www.cityprotocol.co/",
+          "timestamp": "2026-09-26T08:20:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:20:00Z"
     },
     {
       "id": "axis-robotics",
@@ -833,13 +863,23 @@
       "categories": [
         "Pre-TGE"
       ],
-      "status": "EARLY",
-      "chain": null,
-      "tge": null,
-      "description": "Pre-TGE candidate under Crypto Watch monitoring (ASSET). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "status": "LIVE",
+      "chain": "REAL Finance L1 (Cosmos SDK)",
+      "tge": "LIVE · $ASSET already trading",
+      "description": "REAL Finance is institutional RWA infrastructure built as a purpose-built Layer-1 on Cosmos SDK. $ASSET TGE is already live; this project is no longer a pre-TGE candidate.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://www.real.finance/"
+        },
+        {
+          "type": "OTHER",
+          "label": "TGE",
+          "url": "https://tge.real.finance/"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -859,8 +899,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "real-finance-live-correction-2026-09-26",
+          "title": "$ASSET jau LIVE — pašalinta iš pre-TGE būsenos",
+          "description": "Oficialus REAL Finance TGE puslapis rodo, kad $ASSET TGE jau įvyko ir tokenas prieinamas KuCoin, MEXC, Kraken, OKX ir Uniswap. Projektas pažymėtas LIVE.",
+          "source": "REAL Finance",
+          "url": "https://tge.real.finance/",
+          "timestamp": "2026-09-26T08:20:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:20:00Z"
     },
     {
       "id": "soul-labs",
@@ -3957,11 +4007,16 @@
       ],
       "status": "EARLY",
       "chain": null,
-      "tge": null,
-      "description": "Pre-seed crypto candidate. Monitoring product launch, funding, token/incentive plans, official X, network and contracts.",
+      "tge": "Platform launch Q4 2026 · token TGE not confirmed",
+      "description": "Tenka builds institutional dealing and secondary-liquidity infrastructure for asset-based private credit. It raised a $2M pre-seed led by Maven 11 with Gami Capital participation. Platform launch is stated for Q4 2026; no native token/TGE is assumed until officially announced.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://www.tenka.fi/"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -3981,8 +4036,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-26T07:10:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "tenka-preseed-launch-2026-09-26",
+          "title": "Tenka: $2M pre-seed, platform launch Q4 2026",
+          "description": "Tenka oficialiai skelbia $2M pre-seed roundą, vedamą Maven 11 su Gami Capital. Svetainė nurodo platformos launch Q4 2026. Tai nėra patvirtintas tokeno TGE, todėl tokeno laukas lieka nepatvirtintas.",
+          "source": "Tenka",
+          "url": "https://www.tenka.fi/blog/tenka-pre-seed-round",
+          "timestamp": "2026-09-26T08:20:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T08:20:00Z"
     },
     {
       "id": "morfi-markets",
