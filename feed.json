@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:10:00Z",
+  "generatedAt": "2026-09-26T07:20:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -138,11 +138,17 @@
       ],
       "status": "UPCOMING",
       "chain": "Base",
-      "tge": null,
-      "description": "Pre-TGE candidate under Crypto Watch monitoring (XDP). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "tge": "2026-09-28 13:00 UTC (16:00 Lithuania)",
+      "description": "Doppler Finance (XDP) pre-TGE project on Base. KuCoin has announced XDP/USDT World Premiere trading for 2026-09-28 13:00 UTC (16:00 Lithuania), with call auction 12:00–13:00 UTC. Crypto Watch tracks the official project confirmation, token contract, TGE, staking and future incentive seasons.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "label": "KuCoin XDP listing announcement",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-doppler-finance-xdp-listed-on-kucoin"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -162,8 +168,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "doppler-xdp-kucoin-launch-2026-09-28",
+          "title": "XDP/USDT launch announced for September 28",
+          "description": "KuCoin announced XDP/USDT World Premiere trading for September 28 at 13:00 UTC (16:00 Lithuania). Call auction: 12:00–13:00 UTC. Network: Base. The exchange links a Base token contract, but Crypto Watch keeps the CA unverified until project-side confirmation.",
+          "source": "KuCoin",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-doppler-finance-xdp-listed-on-kucoin",
+          "timestamp": "2026-09-26T07:20:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T07:20:00Z"
     },
     {
       "id": "magicblock",
@@ -2913,6 +2929,18 @@
       "timestamp": "2026-09-25T10:47:00Z",
       "priority": "HIGH",
       "projectId": "ekiden"
+    },
+    {
+      "id": "doppler-xdp-tge-2026-09-28",
+      "type": "TGE",
+      "title": "XDP launch: September 28, 16:00 LT",
+      "message": "KuCoin XDP/USDT World Premiere trading starts 13:00 UTC (16:00 Lithuania); call auction begins 12:00 UTC.",
+      "source": "KuCoin",
+      "timestamp": "2026-09-26T07:20:00Z",
+      "priority": "HIGH",
+      "projectId": "doppler",
+      "signalId": null,
+      "address": null
     }
   ]
 }
