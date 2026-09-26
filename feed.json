@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:20:00Z",
+  "generatedAt": "2026-09-26T07:30:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -88,10 +88,15 @@
       "status": "UPCOMING",
       "chain": "Arbitrum",
       "tge": "Q4 2026",
-      "description": "Pre-TGE derivatives protocol under Crypto Watch monitoring. Tracking VAR TGE, points, tokenomics, listings and official contract publication.",
+      "description": "Variational Omni is an on-chain derivatives platform. Crypto Watch tracks its active weekly points program, future token/TGE announcements, tokenomics, listings and official contract.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://www.variational.io/en"
+        }
+      ],
       "wallets": [],
       "updates": [
         {
@@ -101,8 +106,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T10:47:00Z",
           "priority": "HIGH"
+        },
+        {
+          "id": "variational-points-active-2026-09-26",
+          "title": "Omni Points programa aktyvi",
+          "description": "Variational oficialus Help Center patvirtina, kad Omni Points skirstomi kas savaitę penktadieniais 00:00 UTC už organišką platformos veiklą ir referral aktyvumą. Tikslios tokeno/TGE sąlygos feed'e bus įrašomos tik patvirtinus oficialiu šaltiniu.",
+          "source": "Variational Help Center",
+          "url": "https://help.variational.io/en/articles/14766791-points-on-omni",
+          "timestamp": "2026-09-26T07:30:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T07:30:00Z"
     },
     {
       "id": "ekiden",
@@ -114,10 +129,15 @@
       "status": "EARLY",
       "chain": "Canton Network",
       "tge": null,
-      "description": "Early pre-token derivatives project under Crypto Watch monitoring. Tracking Mainnet XP, community token allocation, TGE and official token details.",
+      "description": "Ekiden is an institutional-grade CLOB digital-asset exchange candidate under early-stage monitoring. Crypto Watch tracks XP/community allocation, token/TGE announcements and official contract publication.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://ekiden.fi/"
+        }
+      ],
       "wallets": [],
       "updates": [
         {
@@ -127,8 +147,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T10:47:00Z",
           "priority": "HIGH"
+        },
+        {
+          "id": "ekiden-official-site-2026-09-26",
+          "title": "Ekiden ankstyvos stadijos stebėjimas",
+          "description": "Patvirtinta oficiali Ekiden Exchange svetainė. Tokeno tickeris, TGE data ir CA šiame feed'e lieka TBA, kol bus patvirtinti pirminiu šaltiniu.",
+          "source": "Ekiden",
+          "url": "https://ekiden.fi/",
+          "timestamp": "2026-09-26T07:30:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T07:30:00Z"
     },
     {
       "id": "doppler",
@@ -139,7 +169,7 @@
       "status": "UPCOMING",
       "chain": "Base",
       "tge": "2026-09-28 13:00 UTC (16:00 Lithuania)",
-      "description": "Doppler Finance (XDP) pre-TGE project on Base. KuCoin has announced XDP/USDT World Premiere trading for 2026-09-28 13:00 UTC (16:00 Lithuania), with call auction 12:00–13:00 UTC. Crypto Watch tracks the official project confirmation, token contract, TGE, staking and future incentive seasons.",
+      "description": "Doppler Finance is tokenized-capital infrastructure with XDP as its native utility/governance token. XDP total supply is 10B; 1% Genesis Airdrop is fully unlocked at TGE and 43% is allocated to Ecosystem & Incentives. KuCoin announced XDP/USDT trading for Sep 28, 13:00 UTC (16:00 Lithuania).",
       "monitoring": "ACTIVE",
       "metrics": [],
       "links": [
@@ -147,6 +177,10 @@
           "type": "OTHER",
           "label": "KuCoin XDP listing announcement",
           "url": "https://www.kucoin.com/announcement/en-world-premiere-doppler-finance-xdp-listed-on-kucoin"
+        },
+        {
+          "type": "WEBSITE",
+          "url": "https://www.doppler.finance/"
         }
       ],
       "wallets": [
@@ -177,9 +211,18 @@
           "url": "https://www.kucoin.com/announcement/en-world-premiere-doppler-finance-xdp-listed-on-kucoin",
           "timestamp": "2026-09-26T07:20:00Z",
           "priority": "HIGH"
+        },
+        {
+          "id": "doppler-tokenomics-official-2026",
+          "title": "XDP tokenomics patvirtinta",
+          "description": "Doppler oficialiai patvirtino 10 mlrd. XDP supply, 1% Genesis Airdrop (100% unlocked per TGE) ir 43% Ecosystem & Incentives. Planuojami būsimi Doppler Points sezonai ir XDP staking.",
+          "source": "Doppler Finance",
+          "url": "https://blog.doppler.finance/blog/introducing-xdp",
+          "timestamp": "2026-09-26T07:30:00Z",
+          "priority": "HIGH"
         }
       ],
-      "lastUpdateAt": "2026-09-26T07:20:00Z"
+      "lastUpdateAt": "2026-09-26T07:30:00Z"
     },
     {
       "id": "magicblock",
@@ -400,10 +443,15 @@
       "status": "UPCOMING",
       "chain": null,
       "tge": null,
-      "description": "Pre-TGE candidate under Crypto Watch monitoring (TENEO). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "description": "Teneo Protocol operates a decentralized real-time data/AI-agent network. Community Node participation earns Teneo Points; official project material states points convert into Teneo Tokens after TGE. Crypto Watch tracks TGE timing and token contract.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://teneo.pro/"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -423,8 +471,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "teneo-points-token-2026-09-26",
+          "title": "Teneo Points susieti su būsimais Teneo tokenais",
+          "description": "Teneo oficiali finansavimo medžiaga nurodo, kad Community Node vartotojai uždirba Teneo Points, kurie po TGE konvertuosis į Teneo Tokens. Tiksli TGE data ir CA dar paliekami TBA.",
+          "source": "Teneo",
+          "url": "https://teneo.pro/blog/teneo-raises-3-million-in-seed-funding",
+          "timestamp": "2026-09-26T07:30:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T07:30:00Z"
     },
     {
       "id": "apyx",
@@ -575,10 +633,29 @@
       "status": "UPCOMING",
       "chain": "Base",
       "tge": null,
-      "description": "Pre-TGE candidate under Crypto Watch monitoring (AXIS). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "description": "Axis Robotics is a Base-native Physical AI data network. AXIS community sale is active; fixed sale price $0.10, $100M FDV, 1B max supply, 10% unlock at TGE then 6-month cliff and 90% linear vesting over 6 months.",
       "monitoring": "ACTIVE",
-      "metrics": [],
-      "links": [],
+      "metrics": [
+        {
+          "label": "Sale price",
+          "value": "$0.10"
+        },
+        {
+          "label": "Sale FDV",
+          "value": "$100M"
+        },
+        {
+          "label": "Total supply",
+          "value": "1B AXIS"
+        }
+      ],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "label": "Community Sale",
+          "url": "https://sale.axisrobotics.ai/"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -598,8 +675,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "axis-sale-2026-09-28",
+          "title": "AXIS Community Sale vyksta iki rugsėjo 28 d.",
+          "description": "Oficiali AXIS sale Base tinkle: commitment langas užsidaro 2026-09-28 05:00 UTC (08:00 Lietuvos laiku). Mokama USDC; $100–$100,000; 10% allocation unlock per TGE, likusi dalis po 6 mėn. cliff vestinama 6 mėn. TGE data dar TBA.",
+          "source": "Axis Robotics",
+          "url": "https://sale.axisrobotics.ai/",
+          "timestamp": "2026-09-26T07:30:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T07:30:00Z"
     },
     {
       "id": "real-finance",
@@ -2711,10 +2798,15 @@
       "status": "EARLY",
       "chain": null,
       "tge": null,
-      "description": "Early-stage DeFi cover infrastructure candidate. Monitoring token plans, points/testnet, TGE, funding, official X, network and contract publication.",
+      "description": "Firelight is a decentralized DeFi cover protocol protecting on-chain capital against protocol, smart-contract and economic risks. It raised an $8M seed led by Gumi Cryptos Capital and has an active Firelight Points reward system.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://firelight.finance/"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2734,8 +2826,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-26T07:10:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "firelight-seed-points-2026",
+          "title": "Firelight: $8M seed ir aktyvi Points sistema",
+          "description": "Firelight paskelbė $8M seed roundą, vedamą Gumi Cryptos Capital, dalyvaujant Maven 11, Metalayer, Joint Effects ir Tribe Capital. Oficialiuose docs aprašyta Firelight Points sistema. Tokeno/TGE data kol kas paliekama TBA.",
+          "source": "Firelight Protocol",
+          "url": "https://firelight.finance/articles/firelight-protocol-raises-8-million-to-build-cover-infrastructure-for-defi",
+          "timestamp": "2026-09-26T07:30:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T07:30:00Z"
     },
     {
       "id": "asentum",
@@ -2747,10 +2849,15 @@
       "status": "EARLY",
       "chain": "Asentum Testnet",
       "tge": null,
-      "description": "Early-stage L1 candidate with incentivized testnet activity. Monitoring XP/rewards, token plans, TGE, official X, network and contract publication.",
+      "description": "Post-quantum JavaScript-native L1 with an incentivized testnet. Users can earn XP through on-chain activity, dApps, staking, validators, quests and bug contributions; project devlog describes XP as the airdrop mechanism.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://www.asentum.com/"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -2770,8 +2877,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-26T07:10:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "asentum-incentivized-testnet-2026",
+          "title": "Asentum incentivized testnet ir XP airdrop aktyvūs",
+          "description": "Asentum incentivized testnet Season 1 startavo rugsėjo 17 d. XP gaunami už realią on-chain veiklą, dApps, staking, validatorius ir quests. Oficialus devlog XP apibūdina kaip airdrop payout mechanizmą.",
+          "source": "Asentum",
+          "url": "https://www.asentum.com/devlog/the-multiplier-that-lives-on-another-chain",
+          "timestamp": "2026-09-26T07:30:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-09-26T07:30:00Z"
     },
     {
       "id": "atum",
