@@ -1,5 +1,23 @@
 {
   "schema_version": 1,
   "description": "Public candidate-event inbox written by ChatGPT monitoring. CryptoWatch backend imports events idempotently.",
-  "events": []
+  "events": [
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_UPDATE",
+      "source_event_id": "chatgpt-cryptowatch-live-test-20261003-001",
+      "occurred_at": "2026-10-03T19:30:00Z",
+      "payload": {
+        "project_id": "balcore",
+        "update_id": "chatgpt-cryptowatch-live-test-20261003-001",
+        "title": "Crypto Watch monitoring test",
+        "summary": "Live test event sent through the ChatGPT monitoring inbox to verify the Crypto Watch delivery pipeline.",
+        "category": "NEWS",
+        "priority": "IMPORTANT",
+        "source_url": "https://github.com/sollatelt123-ai/cryptowatch-feed",
+        "confidence": 1,
+        "verified": false
+      }
+    }
+  ]
 }
