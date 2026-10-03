@@ -5,17 +5,158 @@
     {
       "schema_version": 1,
       "event_type": "PROJECT_UPDATE",
-      "source_event_id": "chatgpt-cryptowatch-live-test-20261003-001",
-      "occurred_at": "2026-10-03T19:30:00Z",
+      "source_event_id": "kraken-xdp-live-20260928",
+      "occurred_at": "2026-10-03T19:37:00Z",
       "payload": {
-        "project_id": "balcore",
-        "update_id": "chatgpt-cryptowatch-live-test-20261003-001",
-        "title": "Crypto Watch monitoring test",
-        "summary": "Live test event sent through the ChatGPT monitoring inbox to verify the Crypto Watch delivery pipeline.",
-        "category": "NEWS",
+        "project_id": "doppler",
+        "update_id": "kraken-xdp-live-20260928",
+        "title": "XDP spot trading is live",
+        "summary": "Kraken states that Doppler Finance (XDP) trading has been live since September 28, 2026.",
+        "category": "TOKEN",
         "priority": "IMPORTANT",
-        "source_url": "https://github.com/sollatelt123-ai/cryptowatch-feed",
-        "confidence": 1,
+        "source_url": "https://blog.kraken.com/product/asset-listings/xdp-is-available-for-trading",
+        "confidence": 0.99,
+        "verified": false
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_STATUS_CHANGED",
+      "source_event_id": "kraken-xdp-live-status-20260928",
+      "occurred_at": "2026-10-03T19:37:00Z",
+      "payload": {
+        "project_id": "doppler",
+        "status": "LIVE",
+        "reason": "XDP spot trading is live; Kraken states trading has been live since September 28, 2026.",
+        "source_url": "https://blog.kraken.com/product/asset-listings/xdp-is-available-for-trading",
+        "confidence": 0.99,
+        "verified": false
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_UPDATE",
+      "source_event_id": "axis-sale-settlement-terms-20260929",
+      "occurred_at": "2026-10-03T19:37:00Z",
+      "payload": {
+        "project_id": "axis-robotics",
+        "update_id": "axis-sale-settlement-terms-20260929",
+        "title": "Community sale closed; settlement in progress",
+        "summary": "Axis says the September 21–28 community sale is complete and settlement is in progress. On September 29 it amended sale terms to 25% unlock at TGE plus a 5–25% community bonus fully unlocked at TGE; the remaining 75% keeps a 6-month cliff followed by 6 months of linear vesting. The exact TGE date remains TBA.",
+        "category": "TOKEN",
+        "priority": "IMPORTANT",
+        "source_url": "https://sale.axisrobotics.ai/",
+        "confidence": 0.99,
+        "verified": false
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_UPDATE",
+      "source_event_id": "kucoin-pnt-listing-20261002",
+      "occurred_at": "2026-10-03T19:37:00Z",
+      "payload": {
+        "project_id": "pheasant-network",
+        "update_id": "kucoin-pnt-listing-20261002",
+        "title": "PNT/USDT trading announced for October 5",
+        "summary": "KuCoin announced Pheasant Network (PNT) spot trading for October 5, 2026 at 12:00 UTC. Deposits are already open on Ethereum ERC-20; withdrawals are scheduled for October 6 at 10:00 UTC. Crypto Watch does not promote the linked exchange contract to official project CA without project-side verification.",
+        "category": "TOKEN",
+        "priority": "IMPORTANT",
+        "source_url": "https://www.kucoin.com/announcement/en-world-premiere-pheasant-network-pnt-listed-on-kucoin",
+        "confidence": 0.98,
+        "verified": false
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_UPDATE",
+      "source_event_id": "ethos-whuf-tge-20260908",
+      "occurred_at": "2026-10-03T19:37:00Z",
+      "payload": {
+        "project_id": "ethos-network",
+        "update_id": "ethos-whuf-tge-20260908",
+        "title": "WHUF TGE already occurred on September 8",
+        "summary": "Ethos Help Center says the WHUF sale ran September 1–4, 2026 and tokens were distributed at TGE on September 8 to bidder wallets. Sale tokens are locked until October 8, 2026.",
+        "category": "TGE",
+        "priority": "IMPORTANT",
+        "source_url": "https://help.ethos.network/en/articles/16985773-the-whuf-sale-has-ended-what-happened-and-what-is-still-open",
+        "confidence": 0.99,
+        "verified": false
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_STATUS_CHANGED",
+      "source_event_id": "ethos-whuf-live-status-20260908",
+      "occurred_at": "2026-10-03T19:37:00Z",
+      "payload": {
+        "project_id": "ethos-network",
+        "status": "LIVE",
+        "reason": "Ethos states WHUF tokens were distributed at TGE on September 8, 2026; sale tokens remain locked until October 8.",
+        "source_url": "https://help.ethos.network/en/articles/16985773-the-whuf-sale-has-ended-what-happened-and-what-is-still-open",
+        "confidence": 0.99,
+        "verified": false
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_UPSERT",
+      "source_event_id": "variational-var-tge-q4-2026-announced",
+      "occurred_at": "2026-10-03T19:37:00Z",
+      "payload": {
+        "project_id": "variational",
+        "tge": "Q4 2026 · announced; exact date TBA",
+        "priority": "IMPORTANT",
+        "source_url": "https://t.me/s/variational_io",
+        "confidence": 0.97,
+        "verified": false
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_UPDATE",
+      "source_event_id": "variational-var-tokenomics-20260923",
+      "occurred_at": "2026-10-03T19:37:00Z",
+      "payload": {
+        "project_id": "variational",
+        "update_id": "variational-var-tokenomics-20260923",
+        "title": "VAR TGE moved to Q4 2026; initial tokenomics announced",
+        "summary": "Variational announced a Q4 2026 VAR TGE. Initial allocation: 32% Genesis Distribution to points holders, 100% unlocked at TGE; 18% Ecosystem Reserve; 50% team and investors with a 12-month post-TGE lock followed by at least three years of vesting. Weekly points continue until TGE.",
+        "category": "TOKEN",
+        "priority": "IMPORTANT",
+        "source_url": "https://t.me/s/variational_io",
+        "confidence": 0.97,
+        "verified": false
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_UPSERT",
+      "source_event_id": "infinifi-tge-q4-2026-announced",
+      "occurred_at": "2026-10-03T19:37:00Z",
+      "payload": {
+        "project_id": "infinifi",
+        "tge": "Q4 2026 · announced; exact date TBA",
+        "priority": "IMPORTANT",
+        "source_url": "https://www.prnewswire.com/news-releases/infinifi-raises-3m-ahead-of-q4-tge-302887464.html",
+        "confidence": 0.98,
+        "verified": false
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_type": "PROJECT_UPDATE",
+      "source_event_id": "infinifi-funding-20260923",
+      "occurred_at": "2026-10-03T19:37:00Z",
+      "payload": {
+        "project_id": "infinifi",
+        "update_id": "infinifi-funding-20260923",
+        "title": "infiniFi raises $3M+ ahead of Q4 2026 TGE",
+        "summary": "infiniFi announced a new $3M+ round led by Electric Capital, with participation from New Form Capital, Generative Ventures, Fasanara Capital, 2Square, 4th Revolution Capital, DCFGod, The Rollup and others. The project says its token generation event is confirmed for Q4 2026.",
+        "category": "FUNDING",
+        "priority": "IMPORTANT",
+        "source_url": "https://www.prnewswire.com/news-releases/infinifi-raises-3m-ahead-of-q4-tge-302887464.html",
+        "confidence": 0.98,
         "verified": false
       }
     }
