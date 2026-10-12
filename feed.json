@@ -1536,16 +1536,48 @@
         "AI DeFi"
       ],
       "status": "UPCOMING",
-      "chain": null,
-      "tge": "Q3 2026 · Estimated",
-      "description": "Pre-TGE candidate under Crypto Watch monitoring (ALLOX). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "chain": "Ethereum (sale); product: Ethereum, Base, BNB Chain",
+      "tge": "Q4 2026 planned; exact TGE date TBA",
+      "description": "AlloX AI-driven on-chain portfolio allocation. Official community sale whitelist open through Sonar; $1M public round, $1B ALLOX supply, Silver $0.065 ($65M FDV, 100% unlocked TGE), Gold $0.052 ($52M FDV, 20% TGE + 12mo vest), Platinum $0.039 ($39M FDV, 3mo cliff + 12mo vest). KYC and jurisdiction restrictions apply. Sale participation does not guarantee returns.",
       "monitoring": "ACTIVE",
-      "metrics": [],
+      "metrics": [
+        {
+          "label": "Public raise",
+          "value": "$1M"
+        },
+        {
+          "label": "Total supply",
+          "value": "1B ALLOX"
+        },
+        {
+          "label": "Silver FDV",
+          "value": "$65M"
+        },
+        {
+          "label": "Gold FDV",
+          "value": "$52M"
+        },
+        {
+          "label": "Platinum FDV",
+          "value": "$39M"
+        }
+      ],
       "links": [
         {
+          "type": "WEBSITE",
+          "url": "https://www.allox.ai/"
+        },
+        {
+          "type": "WEBSITE",
+          "url": "https://sale.allox.ai/"
+        },
+        {
+          "type": "X",
+          "url": "https://x.com/alloxdotai"
+        },
+        {
           "type": "OTHER",
-          "label": "TGE tracker",
-          "url": "https://cryptodiffer.com/upcoming-tges"
+          "url": "https://www.globenewswire.com/news-release/2026/10/09/3378173/0/en/allox-1-million-public-sale-opens-october-12-on-coinbase-owned-sonar-after-binance-wallet-success-and-5m-funding.html"
         }
       ],
       "wallets": [
@@ -1576,9 +1608,18 @@
           "url": "https://cryptodiffer.com/upcoming-tges",
           "timestamp": "2026-09-26T08:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "allox-sale-terms-2026-10-12",
+          "title": "ALLOX whitelist ir trys public sale kainų planai",
+          "description": "Oficialus sale portalas rodo whitelist registraciją ir $1M public roundą Ethereum tinkle. Silver $0.065, Gold $0.052, Platinum $0.039 už ALLOX; vesting skiriasi. TGE tiksli data dar nepaskelbta. KYC ir tinkamumas Lietuvai turi būti patikrinti Sonar.",
+          "source": "AlloX official sale",
+          "url": "https://sale.allox.ai/",
+          "timestamp": "2026-10-12T05:00:00Z",
+          "priority": "HIGH"
         }
       ],
-      "lastUpdateAt": "2026-09-26T08:00:00Z"
+      "lastUpdateAt": "2026-10-12T05:00:00Z"
     },
     {
       "id": "ethos-network",
