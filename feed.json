@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:20:00Z",
+  "generatedAt": "2026-10-12T04:08:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -666,11 +666,16 @@
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": null,
+      "tge": "October 2026 · tracker estimate",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (RITUAL). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "url": "https://icoanalytics.org/"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -690,8 +695,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "ritual-2026-10-12-status",
+          "title": "Spalio 12 d. projekto būklė",
+          "description": "ICO Analytics nurodo spalio 2026 TGE, tačiau konkreti oficiali data ir CA nepatvirtinti.",
+          "source": "ICO Analytics",
+          "url": "https://icoanalytics.org/",
+          "timestamp": "2026-10-12T04:08:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-10-12T04:08:00Z"
     },
     {
       "id": "catapult",
@@ -3373,13 +3388,18 @@
       "categories": [
         "Pre-TGE"
       ],
-      "status": "EARLY",
+      "status": "UPCOMING",
       "chain": null,
       "tge": null,
       "description": "Pre-TGE candidate under Crypto Watch monitoring (DS). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
-      "links": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "url": "https://dscvr.one/airdrop-hub"
+        }
+      ],
       "wallets": [
         {
           "type": "TOKEN_CA",
@@ -3399,8 +3419,18 @@
           "source": "Crypto Watch",
           "timestamp": "2026-09-25T11:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "dscvr-2026-10-12-status",
+          "title": "Spalio 12 d. projekto būklė",
+          "description": "Oficialus Airdrop Hub nurodo 450 mln. DS airdrop fondą, TGE TBA; ankstesnis eligibility etapas baigėsi.",
+          "source": "DSCVR",
+          "url": "https://dscvr.one/airdrop-hub",
+          "timestamp": "2026-10-12T04:08:00Z",
+          "priority": "NORMAL"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-10-12T04:08:00Z"
     },
     {
       "id": "euphoria",
@@ -4084,6 +4114,70 @@
           "priority": "NORMAL"
         }
       ]
+    },
+    {
+      "id": "jumper",
+      "name": "Jumper",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": "Ethereum",
+      "tge": null,
+      "description": "JUMP public sale užbaigtas spalio 2 d.; TGE data oficialiai dar nepaskelbta.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "url": "https://help.legion.cc/en/articles/17139928-jumper-jump-public-sale-on-legion-everything-you-need-to-know"
+        }
+      ],
+      "wallets": [],
+      "updates": [
+        {
+          "id": "jumper-2026-10-12-status",
+          "title": "Spalio 12 d. projekto būklė",
+          "description": "JUMP public sale užbaigtas spalio 2 d.; TGE data oficialiai dar nepaskelbta.",
+          "source": "Legion",
+          "url": "https://help.legion.cc/en/articles/17139928-jumper-jump-public-sale-on-legion-everything-you-need-to-know",
+          "timestamp": "2026-10-12T04:08:00Z",
+          "priority": "NORMAL"
+        }
+      ],
+      "lastUpdateAt": "2026-10-12T04:08:00Z"
+    },
+    {
+      "id": "startale",
+      "name": "Startale",
+      "categories": [
+        "Pre-TGE"
+      ],
+      "status": "EARLY",
+      "chain": "Soneium / Ethereum",
+      "tge": null,
+      "description": "STAR Points programa tęsiama; spalio 6 d. paskelbtos naujos Startale App funkcijos. STAR Points nėra patvirtintas būsimo tokeno paskirstymas.",
+      "monitoring": "ACTIVE",
+      "metrics": [],
+      "links": [
+        {
+          "type": "OTHER",
+          "url": "https://startale.com/en/blog"
+        }
+      ],
+      "wallets": [],
+      "updates": [
+        {
+          "id": "startale-2026-10-12-status",
+          "title": "Spalio 12 d. projekto būklė",
+          "description": "STAR Points programa tęsiama; spalio 6 d. paskelbtos naujos Startale App funkcijos. STAR Points nėra patvirtintas būsimo tokeno paskirstymas.",
+          "source": "Startale",
+          "url": "https://startale.com/en/blog",
+          "timestamp": "2026-10-12T04:08:00Z",
+          "priority": "NORMAL"
+        }
+      ],
+      "lastUpdateAt": "2026-10-12T04:08:00Z"
     }
   ],
   "signals": [],
