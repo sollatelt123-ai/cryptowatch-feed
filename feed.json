@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T05:30:00Z",
+  "generatedAt": "2026-10-12T07:05:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -4276,9 +4276,9 @@
         "Wellness"
       ],
       "status": "EARLY",
-      "chain": null,
-      "tge": null,
-      "description": "Gotchi Labs expands Sleepagotchi into consumer AI agents. CHI token proposed for access, rewards and commerce. Community sale registrations announced via Sonar; official price, vesting, dates and Lithuania eligibility not yet verified.",
+      "chain": "Solana (planned CHI token)",
+      "tge": "Q4 2026 target; exact date unconfirmed",
+      "description": "Gotchi Labs (Sleepagotchi) Consumer AI ecosystem; CHI aims at optional platform access, rewards, payments, governance and staking-based tiers. Sonar community sale registration announced October 11, 2026; COMMITMENT NOT VERIFIED OPEN. Official Sept 2026 whitepaper confirms 1,000,000,000 max CHI supply, but public price, initial circulating supply, token distribution, presale allocation, unlocks/vesting and Lithuanian KYC eligibility are NOT confirmed. $0.05 / $500k figures circulating on third-party trackers must not be treated as official.",
       "monitoring": "ACTIVE",
       "metrics": [
         {
@@ -4288,6 +4288,22 @@
         {
           "label": "Funding (reported)",
           "value": "~$6–6.5M"
+        },
+        {
+          "label": "Max supply (whitepaper)",
+          "value": "1,000,000,000 CHI"
+        },
+        {
+          "label": "Public sale price",
+          "value": "NOT CONFIRMED"
+        },
+        {
+          "label": "Vesting / initial circulating",
+          "value": "NOT DISCLOSED"
+        },
+        {
+          "label": "Lithuania eligibility",
+          "value": "NOT VERIFIED"
         }
       ],
       "links": [
@@ -4298,6 +4314,14 @@
         {
           "type": "OTHER",
           "url": "https://hub.sleepagotchi.com/"
+        },
+        {
+          "type": "WHITEPAPER",
+          "url": "https://gotchilabs.com/__l5e/assets-v1/edda4daf-7a94-4706-92c2-133b85c8456b/Gotchi_Labs_Whitepaper.pdf"
+        },
+        {
+          "type": "X",
+          "url": "https://x.com/sleepagotchi/status/2108590938130108610"
         }
       ],
       "wallets": [],
@@ -4310,8 +4334,18 @@
           "url": "https://gotchilabs.com/",
           "timestamp": "2026-10-12T05:30:00Z",
           "priority": "HIGH"
+        },
+        {
+          "id": "gotchi-chi-whp-verified-2026-10-12",
+          "title": "CHI official whitepaper: 1B max supply; sale terms still unconfirmed",
+          "description": "Official Gotchi Labs September 2026 whitepaper: 1B maximum supply, Solana token; initial circulating supply, allocations, vesting and per-round prices await public tokenomics. Oct 11 Sonar community sale signups confirmed in reporting, but no verified live commitment, no officially confirmed price/FDV, Lithuania eligibility or token contract. $0.05/$500k figures found only on third-party tracker; not a buy signal.",
+          "source": "Gotchi Labs official whitepaper; Sleepagotchi X sale announcement",
+          "url": "https://gotchilabs.com/__l5e/assets-v1/edda4daf-7a94-4706-92c2-133b85c8456b/Gotchi_Labs_Whitepaper.pdf",
+          "timestamp": "2026-10-12T07:05:00Z",
+          "priority": "HIGH"
         }
-      ]
+      ],
+      "lastUpdateAt": "2026-10-12T07:05:00Z"
     }
   ],
   "signals": [],
