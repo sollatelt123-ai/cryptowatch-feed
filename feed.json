@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T05:00:00Z",
+  "generatedAt": "2026-10-12T05:30:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -1780,10 +1780,10 @@
       "categories": [
         "L1/L2"
       ],
-      "status": "UPCOMING",
+      "status": "EARLY",
       "chain": null,
-      "tge": "Q3 2026 · Estimated",
-      "description": "Pre-TGE candidate under Crypto Watch monitoring. Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
+      "tge": "CANCELLED — September 2026 sale failed; operations ceased",
+      "description": "Linera ceased operations after LNRA community round failed to reach $1.5M minimum. About $848,271 was committed by 617 participants; sale funds refunded. Do not treat as active presale.",
       "monitoring": "ACTIVE",
       "metrics": [],
       "links": [
@@ -1791,6 +1791,10 @@
           "type": "OTHER",
           "label": "TGE tracker",
           "url": "https://cryptodiffer.com/upcoming-tges"
+        },
+        {
+          "type": "OTHER",
+          "url": "https://sale.linera.net/"
         }
       ],
       "wallets": [
@@ -1821,9 +1825,18 @@
           "url": "https://cryptodiffer.com/upcoming-tges",
           "timestamp": "2026-09-26T08:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "linera-shutdown-2026-09",
+          "title": "LNRA pardavimas neįvyko, veikla nutraukta",
+          "description": "Linera nesurinko minimalių $1.5M; apie $848,271 iš 617 dalyvių buvo grąžinti. Projektas nutraukė veiklą. NEAKTYVUS PRESALE.",
+          "source": "Linera / project sale",
+          "url": "https://sale.linera.net/",
+          "timestamp": "2026-10-12T05:30:00Z",
+          "priority": "CRITICAL"
         }
       ],
-      "lastUpdateAt": "2026-09-26T08:00:00Z"
+      "lastUpdateAt": "2026-10-12T05:30:00Z"
     },
     {
       "id": "nado",
@@ -4254,6 +4267,51 @@
         }
       ],
       "lastUpdateAt": "2026-10-12T04:08:00Z"
+    },
+    {
+      "id": "gotchi-labs",
+      "name": "Gotchi Labs",
+      "categories": [
+        "Consumer AI",
+        "Wellness"
+      ],
+      "status": "EARLY",
+      "chain": null,
+      "tge": null,
+      "description": "Gotchi Labs expands Sleepagotchi into consumer AI agents. CHI token proposed for access, rewards and commerce. Community sale registrations announced via Sonar; official price, vesting, dates and Lithuania eligibility not yet verified.",
+      "monitoring": "ACTIVE",
+      "metrics": [
+        {
+          "label": "Registered users (project claim)",
+          "value": "500K+"
+        },
+        {
+          "label": "Funding (reported)",
+          "value": "~$6–6.5M"
+        }
+      ],
+      "links": [
+        {
+          "type": "WEBSITE",
+          "url": "https://gotchilabs.com/"
+        },
+        {
+          "type": "OTHER",
+          "url": "https://hub.sleepagotchi.com/"
+        }
+      ],
+      "wallets": [],
+      "updates": [
+        {
+          "id": "gotchi-chi-sale-registration-2026-10-11",
+          "title": "CHI community sale registracija paskelbta",
+          "description": "Gotchi Labs, Sleepagotchi kūrėjai, paskelbė CHI community sale registraciją per Sonar. Tokenas skirtas prieigai, atlygiams ir atsiskaitymams. Kaina, FDV, vesting ir Lietuvos dalyvavimo sąlygos dar nepatvirtintos oficialiuose sale dokumentuose.",
+          "source": "Gotchi Labs",
+          "url": "https://gotchilabs.com/",
+          "timestamp": "2026-10-12T05:30:00Z",
+          "priority": "HIGH"
+        }
+      ]
     }
   ],
   "signals": [],
