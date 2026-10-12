@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T04:08:00Z",
+  "generatedAt": "2026-10-12T05:00:00Z",
   "projects": [
     {
       "id": "balcore",
@@ -179,9 +179,9 @@
       "categories": [
         "Pre-TGE"
       ],
-      "status": "UPCOMING",
+      "status": "LIVE",
       "chain": "Base",
-      "tge": "2026-09-28 13:00 UTC (16:00 Lithuania)",
+      "tge": "2026-09-28 13:00 UTC (16:00 Europe/Vilnius) — trading started",
       "description": "Doppler Finance is tokenized-capital infrastructure with XDP as its native utility/governance token. XDP total supply is 10B; 1% Genesis Airdrop is fully unlocked at TGE and 43% is allocated to Ecosystem & Incentives. KuCoin announced XDP/USDT trading for Sep 28, 13:00 UTC (16:00 Lithuania).",
       "monitoring": "ACTIVE",
       "metrics": [],
@@ -233,9 +233,18 @@
           "url": "https://blog.doppler.finance/blog/introducing-xdp",
           "timestamp": "2026-09-26T07:30:00Z",
           "priority": "HIGH"
+        },
+        {
+          "id": "doppler-2026-10-12-audit",
+          "title": "XDP prekyba jau pradėta",
+          "description": "KuCoin XDP/USDT spot prekybos startas įvyko rugsėjo 28 d. 13:00 UTC. Šis projektas nebe pre-TGE; tokenas prekiaujamas Base tinkle.",
+          "source": "KuCoin",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-doppler-finance-xdp-listed-on-kucoin",
+          "timestamp": "2026-10-12T05:00:00Z",
+          "priority": "HIGH"
         }
       ],
-      "lastUpdateAt": "2026-09-26T07:30:00Z"
+      "lastUpdateAt": "2026-10-12T05:00:00Z"
     },
     {
       "id": "magicblock",
@@ -615,7 +624,7 @@
       ],
       "status": "UPCOMING",
       "chain": null,
-      "tge": "Oct 13, 2026 · tracker confirmed; project delay requires verification",
+      "tge": "TBA — October 13 TGE postponed officially",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (APYX). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
@@ -624,6 +633,10 @@
           "type": "OTHER",
           "label": "TGE tracker",
           "url": "https://cryptodiffer.com/upcoming-tges"
+        },
+        {
+          "type": "OTHER",
+          "url": "https://blog.apyx.fi/apyx-tge-update/"
         }
       ],
       "wallets": [
@@ -654,9 +667,18 @@
           "url": "https://cryptodiffer.com/upcoming-tges",
           "timestamp": "2026-09-26T08:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "apyx-2026-10-12-audit",
+          "title": "APYX TGE oficialiai atidėtas",
+          "description": "Apyx oficialiai atidėjo spalio 13 d. planuotą TGE. Nauja tiksli data nepaskelbta; Season 2 tęsiamas, airdrop allocation padidinta nuo 6% iki 9%.",
+          "source": "Apyx",
+          "url": "https://blog.apyx.fi/apyx-tge-update/",
+          "timestamp": "2026-10-12T05:00:00Z",
+          "priority": "HIGH"
         }
       ],
-      "lastUpdateAt": "2026-09-26T08:00:00Z"
+      "lastUpdateAt": "2026-10-12T05:00:00Z"
     },
     {
       "id": "ritual",
@@ -2119,9 +2141,9 @@
       "categories": [
         "L1/L2"
       ],
-      "status": "UPCOMING",
-      "chain": null,
-      "tge": "Q4 2026 · Estimated",
+      "status": "EARLY",
+      "chain": "Arc L1 (mainnet live)",
+      "tge": "ARC public TGE: TBA; 10B genesis minted, no public launch commitment",
       "description": "Pre-TGE candidate under Crypto Watch monitoring (ARC). Official network, TGE, token contract, funding and participation opportunities are tracked and updated only when verified.",
       "monitoring": "ACTIVE",
       "metrics": [],
@@ -2130,6 +2152,10 @@
           "type": "OTHER",
           "label": "TGE tracker",
           "url": "https://cryptodiffer.com/upcoming-tges"
+        },
+        {
+          "type": "OTHER",
+          "url": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet"
         }
       ],
       "wallets": [
@@ -2160,9 +2186,18 @@
           "url": "https://cryptodiffer.com/upcoming-tges",
           "timestamp": "2026-09-26T08:00:00Z",
           "priority": "NORMAL"
+        },
+        {
+          "id": "arc-2026-10-12-audit",
+          "title": "Arc mainnet veikia; ARC viešas TGE nepatvirtintas",
+          "description": "Circle rugsėjo 16 d. paleido Arc mainnet ir sukūrė 10 mlrd. ARC genesis supply. Tai nėra viešas tokeno paleidimas ir Circle dar neįsipareigojo tokeną išleisti prekybai.",
+          "source": "Circle",
+          "url": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+          "timestamp": "2026-10-12T05:00:00Z",
+          "priority": "HIGH"
         }
       ],
-      "lastUpdateAt": "2026-09-26T08:00:00Z"
+      "lastUpdateAt": "2026-10-12T05:00:00Z"
     },
     {
       "id": "kast",
